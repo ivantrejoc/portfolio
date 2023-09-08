@@ -15,6 +15,7 @@ import { Contact } from '../components/contact/Contact';
 
 const useStyles = makeStyles(() => ({
   root: {
+    marginTop: "2rem",
     display: 'flex',
     flexDirection: 'column',
     minHeight: '100vh',

@@ -2,15 +2,17 @@ nav {
   position: absolute;
   display: flex;
   flex-direction: row;
-  /* transform: translate3d(-50%,0,0); */
+  transform: translate3d(0,0,0);
   top: 15%;
   margin-left: 4rem;
   margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 nav a {
   margin-right: 20px;
   text-decoration: none;
-  color: #F2F2F2;
+  color: #7E7D7D;
 }
 nav a:hover {
   margin-right: 20px;

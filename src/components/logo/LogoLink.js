@@ -21,6 +21,7 @@ export const LogoLink = () => {
   const classes = useStyles();
 
   return (
+    
     <Tooltip
       title={Resume.basics.name}
       placement="right"
@@ -34,8 +35,8 @@ export const LogoLink = () => {
           noWrap
           className={classes.svg}
       >
-        <Logo />
-      </Link>
+    <Logo />
+     </Link>
     </Tooltip>
   );
 };
