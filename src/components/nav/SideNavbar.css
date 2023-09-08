@@ -1,0 +1,22 @@
+nav {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  /* transform: translate3d(-50%,0,0); */
+  top: 15%;
+  margin-left: 4rem;
+  margin-right: auto;
+}
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #F2F2F2;
+}
+nav a:hover {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #59E0C6;
+}
+nav a.active {
+  color: #59E0C6;
+}
