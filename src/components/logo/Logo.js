@@ -7,10 +7,10 @@ const useStyles = makeStyles((theme) => ({
   svgHover: {
     fill: theme.palette.foreground.default,
     position: "fixed",
-    bottom: theme.spacing(91),
-    right: theme.spacing(205.7),
-    width: "40px",
-    height: "40px",
+    width: "50px",
+    height: "50px",
+    top: theme.spacing(6.2),
+    left: theme.spacing(6.3),
     "&:hover": {
       fill: theme.palette.primary.main,
     },
