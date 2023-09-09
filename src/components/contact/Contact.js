@@ -66,7 +66,7 @@ export const Contact = () => {
                   type="text"
                   size="small"
                   variant="filled"
-                  name="name"
+                  name="from_name"
                   className={classes.formfield}
                 />
                 <TextField
@@ -75,7 +75,7 @@ export const Contact = () => {
                   type="email"
                   size="small"
                   variant="filled"
-                  name="email"
+                  name="from_email"
                   className={classes.formfield}
                 />
                 <TextField
