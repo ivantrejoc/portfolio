@@ -8,7 +8,7 @@ import { FirstName, LastName } from "../../utils/getName";
 const useStyles = makeStyles((theme) => ({
   main: {
     maxWidth: '100vw',
-    marginTop: "auto",
+    marginTop: "10vw",
     marginBottom: "auto",
   },
   heading: {

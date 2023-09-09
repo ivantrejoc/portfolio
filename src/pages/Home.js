@@ -12,6 +12,7 @@ import { SideNavbar } from '../components/nav/SideNavbar';
 import { Works } from '../components/works/Works';
 import { About } from '../components/about/About';
 import { Contact } from '../components/contact/Contact';
+import { TechStack } from "../components/techStack/TechStack";
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -42,6 +43,7 @@ export const Home = () => {
       </div>
       <SideNavbar />
       <Works />
+      <TechStack />
       <About />
       <Contact />
     </>
