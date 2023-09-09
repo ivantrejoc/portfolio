@@ -8,11 +8,9 @@ import { TextDecrypt } from "../content/TextDecrypt";
 import './Works.css';
 
 // Import ../../assets/recentprojects/
-import Portfolio from '../../assets/recentprojects/react-portfolio.png';
-import Veritru from '../../assets/recentprojects/veritru.png';
-import Lofo from '../../assets/recentprojects/lofo.png';
-import Startup from '../../assets/recentprojects/startup.png';
-import Lacalle from '../../assets/recentprojects/lacalle.png';
+import Wanderlust from '../../assets/recentprojects/wanderlust.png';
+import Pokemon from '../../assets/recentprojects/pokemon.png';
+import Portfolio from "../../assets/recentprojects/portfolio.png";
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -28,46 +26,27 @@ export const Works = () => {
     { 
       id: 1,
       title: 'React Portfolio', 
-      description: `Designed and developed a ReactJS portfolio 
-      with fancy 3D animations using Three.js for 
-      the background element.`,
+      description: `Personal Portfolio developed with ReactJS.  
+      Designed with fancy 3D animations using Three.js for 
+      the background element and MUI components.`,
       alter: 'React Portfolio',
       image: `${Portfolio}`,
     },
     { 
       id: 2,
-      title: 'VeriTru Project', 
-      description: `An advocacy project website built using
-      MEAN stack with fact-checking tool to promote actions against
-      fake news.`,
-      alter: 'VeriTru Project',
-      image: `${Veritru}`,
+      title: 'Wanderlust', 
+      description: `Amazing e-commerce aimed to sell travel packages. Stands out for its third-party authentication, DBB, sorts, filters, shopping cart and PayPal payment gateway.`,
+      alter: 'Wanderlust',
+      image: `${Wanderlust}`,
     },
     { 
       id: 3,
-      title: 'LoFo Project', 
-      description: `Logistics and Forwarding website built using
-      ReactJS to design and develop its front-end.`,
-      alter: 'LoFo Project',
-      image: `${Lofo}`,
+      title: 'Pokemon', 
+      description: `ReactJS app developed to render pokemon API characters. Front-end designed with tailwindCSS and Flowbite components, back-end developed with Express and database developed with Sequelize.`,
+      alter: 'Pokemon',
+      image: `${Pokemon}`,
     },
-    { 
-      id: 4,
-      title: 'Startup Project', 
-      description: `A website portfolio project for the Startup Dev Team
-      built using MEVN stack to demonstrate the CRUD capabilities of the tech stack.`,
-      alter: 'Startup Project',
-      image: `${Startup}`,
-    },
-    { 
-      id: 5,
-      title: 'LaCalle Cafe', 
-      description: `A website project for the La Calle Cafe business
-      built using Wordpress and PHP with integrated SEO tools to help
-      the business ramp up its prospects and lead generation.`,
-      alter: 'Startup Project',
-      image: `${Lacalle}`,
-    },
+   
   ]);
 
   return (
