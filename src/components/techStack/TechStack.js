@@ -26,6 +26,12 @@ const useStyles = makeStyles((theme) => ({
       fill: theme.palette.primary.main,
     },
     transition: "all 0.5s ease",
+    
+    "@media (max-width: 768px)":{
+      width: "auto",
+      height: "auto"
+    }
+
   },
 
   techStack: {

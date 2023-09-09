@@ -20,10 +20,9 @@ const useStyles = makeStyles((theme) => ({
 export const About = () => {
   const classes = useStyles();
   const greetings = "Hello there!";
-  const aboutme = `I'm ${FirstName} ${LastName}, a multidisciplinary 
-                  designer & developer. I'm always down for something new and challenging!
-                  I'm here to help you create beautifully formatted websites. 
-                  My projects mostly includes web development.`;
+  const aboutme = `I'm ${FirstName} ${LastName}. Code passionate based in Medellín, Antioquia, specialized on business adapted solutions development. 
+  Let´s work together and code amazing projects! 
+   `;
 
   return (
     <section id="about">
