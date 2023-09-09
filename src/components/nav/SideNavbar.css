@@ -3,12 +3,26 @@ nav {
   display: flex;
   flex-direction: row;
   transform: translate3d(0,0,0);
-  top: 15%;
-  margin-left: 4rem;
+  top: 8%;
+  margin-left: 10vw;
   margin-right: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 1.5rem;
+  
 }
+
+@media screen and (max-width: 768px) {
+  /* Cambia el número en max-width según sea necesario */
+  nav {
+    width: 15%; 
+    max-width: 100%; /* Evita que se haga más ancho que el 100% del viewport */
+    margin-left: 10vw;
+    margin-right: auto;
+    margin-top: -5vh;
+    margin-bottom: 10vh;
+  }
+}
+
 nav a {
   margin-right: 20px;
   text-decoration: none;

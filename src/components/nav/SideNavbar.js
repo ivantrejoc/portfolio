@@ -27,6 +27,15 @@ export const SideNavbar = () => {
           Projects
         </Typography>
       </a>
+
+      <a href="#techstack"
+        onClick={() => setActiveNav('#techstack')}
+        className={activeNav === '#techstack' ? 'active' : ''}
+      >
+        <Typography>
+          Tech Stack
+        </Typography>
+      </a>
       <a href="#about" 
         onClick={() => setActiveNav('#about')}
         className={activeNav === '#about' ? 'active' : ''}

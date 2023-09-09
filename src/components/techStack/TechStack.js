@@ -1,6 +1,7 @@
 import React from "react";
 import { Grid, Divider } from "@material-ui/core"; // Grid version 1
 import { makeStyles } from "@material-ui/core/styles";
+import "./techStack.css"
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -8,13 +9,14 @@ const useStyles = makeStyles((theme) => ({
       fontSize: "3rem",
     },
 
-    marginTop: "5vw",
-    marginLeft: "12vw",
+    marginTop: "1vw",
+    marginLeft: "9vw",
     marginRight: "auto",
     marginBottom: "auto",
-    display: "grid",    
+    display: "grid",
     gridTemplateColumns: "repeat(5, 1fr)",
     gridTemplateRows: "1fr, 1fr",
+    gridGap: theme.spacing(1)
   },
   svgImages: {
     // position: "fixed",
@@ -25,21 +27,26 @@ const useStyles = makeStyles((theme) => ({
     },
     transition: "all 0.5s ease",
   },
-  
+
   techStack: {
-    marginTop: "4vw",
-    marginLeft: "12vw",
+    marginTop: "1vw",
+    marginLeft: "9vw",
     justifyContent: "start",
-  }
+  },
 }));
 
 export const TechStack = () => {
   const classes = useStyles();
 
   return (
-    <div>
+    <section id="techstack" className="container">
       <h1 className={classes.techStack}>Tech Stack</h1>
-      <Grid containerc sx={{ rowGap: 0 }} className={classes.main} maxWidth="sm">
+      <Grid
+        
+        sx={{ rowGap: 0 }}
+        className={classes.main}
+        maxWidth="sm"
+      >
         <Grid item xs={12} sm={6} md={4} lg={3}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -368,6 +375,6 @@ export const TechStack = () => {
           </svg>
         </Grid>
       </Grid>
-    </div>
+    </section>
   );
 };
