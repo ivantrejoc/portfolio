@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Divider } from "@material-ui/core"; // Grid version 1
+import { Grid } from "@material-ui/core"; // Grid version 1
 import { makeStyles } from "@material-ui/core/styles";
 import "./techStack.css"
 
@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
     }
 
   },
-
+  
   techStack: {
     marginTop: "1vw",
     marginLeft: "9vw",
