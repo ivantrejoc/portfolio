@@ -31,6 +31,7 @@ export const Works = () => {
       the background element and MUI components.`,
       alter: 'React Portfolio',
       image: `${Portfolio}`,
+      url: "https://ivantrejo.vercel.app/"
     },
     { 
       id: 2,
@@ -38,6 +39,7 @@ export const Works = () => {
       description: `Amazing e-commerce aimed to sell travel packages. Stands out for its third-party authentication, DBB, sorts, filters, shopping cart and PayPal payment gateway.`,
       alter: 'Wanderlust',
       image: `${Wanderlust}`,
+      url:"https://wanderlust-phi.vercel.app/home"
     },
     { 
       id: 3,
@@ -45,6 +47,7 @@ export const Works = () => {
       description: `ReactJS app developed to render pokemon API characters. Front-end designed with tailwindCSS and Flowbite components, back-end developed with Express and database developed with Sequelize.`,
       alter: 'Pokemon',
       image: `${Pokemon}`,
+      url: "https://pokemonivan.vercel.app/"
     },
    
   ]);
@@ -53,14 +56,20 @@ export const Works = () => {
     <section id="works">
       <Container component="main" className={classes.main} maxWidth="md">
         {projects.map((project) => (
+          
           <div className="project" key={ project.id }>
+            <a href={project.url} className="link"> 
             <div className="__img_wrapper">
               <img src={ project.image } alt={ project.alter }/>
             </div>
+            </a>
             <div className="__content_wrapper">
+              <a href={project.url} className="link"> 
               <h3 className="title">
                 <TextDecrypt text={ project.id + '. ' + project.title } />
               </h3>
+              </a>
+              
               <p className="description">
                 { project.description }
               </p>
