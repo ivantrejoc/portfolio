@@ -26,8 +26,30 @@ const useStyles = makeStyles((theme) => ({
 export const Works = () => {
   const classes = useStyles();
   const [projects, setProjects] = useState([
+
     {
       id: 1,
+      title: "Worksplace",
+      description: `Landing page to employment agency based in New York, developed in Wordpress.`,
+      alter: "Worksplace",
+      image: `${Worksplace}`,
+    },
+    {
+      id: 2,
+      title: "Now Agency",
+      description: `Landing page to marketing agency based in Medellín, Colombia. Developed in Wordpress with CSS and JS.`,
+      alter: "Now Agency",
+      image: `${Now}`,
+    },
+    {
+      id: 3,
+      title: "Vive Sano Prime",
+      description: `Landing page to health education platform based in Brazil. Developed in Wordpress with CSS and JS.`,
+      alter: "Vive Sano",
+      image: `${Vsp}`,
+    },
+    {
+      id: 4,
       title: "React Portfolio",
       description: `Personal Portfolio developed with ReactJS.  
       Designed with fancy 3D animations using Three.js for 
@@ -37,7 +59,7 @@ export const Works = () => {
       url: "https://ivantrejo.vercel.app/",
     },
     {
-      id: 2,
+      id: 5,
       title: "Wanderlust",
       description: `Amazing e-commerce aimed to sell travel packages. Stands out for its third-party authentication, DBB, sorts, filters, shopping cart and PayPal payment gateway.`,
       alter: "Wanderlust",
@@ -45,20 +67,14 @@ export const Works = () => {
       url: "https://wanderlust-phi.vercel.app/home",
     },
     {
-      id: 3,
+      id: 6,
       title: "Pokemon",
       description: `ReactJS app developed to render pokemon API characters. Front-end designed with tailwindCSS and Flowbite components, back-end developed with Express and database developed with Sequelize.`,
       alter: "Pokemon",
       image: `${Pokemon}`,
       url: "https://pokemonivan.vercel.app/",
-    },
-    {
-      id: 4,
-      title: "Worksplace",
-      description: `Landing page to employement agency based in New York developed in Wordpress.`,
-      alter: "Worksplace",
-      image: `${Worksplace}`,
-    },
+    }    
+
   ]);
 
   return (
