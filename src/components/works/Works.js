@@ -33,6 +33,7 @@ export const Works = () => {
       description: `Landing page to employment agency based in New York, developed in Wordpress.`,
       alter: "Worksplace",
       image: `${Worksplace}`,
+      url: "https://worksplaceus.com/",
     },
     {
       id: 2,
@@ -40,6 +41,7 @@ export const Works = () => {
       description: `Landing page to marketing agency based in Medellín, Colombia. Developed in Wordpress with CSS and JS.`,
       alter: "Now Agency",
       image: `${Now}`,
+      url: "https://nowagency.com.co/"
     },
     {
       id: 3,
@@ -47,6 +49,7 @@ export const Works = () => {
       description: `Landing page to health education platform based in Brazil. Developed in Wordpress with CSS and JS.`,
       alter: "Vive Sano",
       image: `${Vsp}`,
+      url: "https://vivesanoprime.org/"
     },
     {
       id: 4,
@@ -87,9 +90,11 @@ export const Works = () => {
             </div>
 
             <div className="__content_wrapper">
+            <a href={project.url} className="link">
               <h3 className="title">
                 <TextDecrypt text={ project.id + '. ' + project.title } />
               </h3>
+              </a>
               <p className="description">
                 { project.description }
               </p>
