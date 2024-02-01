@@ -14,6 +14,7 @@ import Portfolio from "../../assets/recentprojects/portfolio.png";
 import Worksplace from "../../assets/recentprojects/worksplace.png";
 import Now from "../../assets/recentprojects/now.png";
 import Vsp from "../../assets/recentprojects/vsp.png";
+import Buime from"../../assets/recentprojects/buime-shop.png";
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -29,6 +30,14 @@ export const Works = () => {
 
     {
       id: 1,
+      title: "Buime",
+      description: `Nice ecommerce which renders fakestore api, includes shopping cart and checkout view, will soon have a payment gateway with Stripe. Developed using Next Js, Typescript and TailwindCSS.`,
+      alter: "Worksplace",
+      image: `${Buime}`,
+      url: "https://buime-ecommerce.vercel.app/",
+    },
+    {
+      id: 2,
       title: "Worksplace",
       description: `Landing page to employment agency based in New York, developed in Wordpress.`,
       alter: "Worksplace",
@@ -36,7 +45,7 @@ export const Works = () => {
       url: "https://worksplaceus.com/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Now Agency",
       description: `Landing page to marketing agency based in Medellín, Colombia. Developed in Wordpress with CSS and JS.`,
       alter: "Now Agency",
@@ -44,7 +53,7 @@ export const Works = () => {
       url: "https://nowagency.com.co/"
     },
     {
-      id: 3,
+      id: 4,
       title: "Vive Sano Prime",
       description: `Landing page to health education platform based in Brazil. Developed in Wordpress with CSS and JS.`,
       alter: "Vive Sano",
@@ -52,7 +61,7 @@ export const Works = () => {
       url: "https://vivesanoprime.org/"
     },
     {
-      id: 4,
+      id: 5,
       title: "React Portfolio",
       description: `Personal Portfolio developed with ReactJS.  
       Designed with fancy 3D animations using Three.js for 
@@ -62,7 +71,7 @@ export const Works = () => {
       url: "https://ivantrejo.vercel.app/",
     },
     {
-      id: 5,
+      id: 6,
       title: "Wanderlust",
       description: `Amazing e-commerce aimed to sell travel packages. Stands out for its third-party authentication, DBB, sorts, filters, shopping cart and PayPal payment gateway.`,
       alter: "Wanderlust",
@@ -70,7 +79,7 @@ export const Works = () => {
       url: "https://wanderlust-phi.vercel.app/home",
     },
     {
-      id: 6,
+      id: 7,
       title: "Pokemon",
       description: `ReactJS app developed to render pokemon API characters. Front-end designed with tailwindCSS and Flowbite components, back-end developed with Express and database developed with Sequelize.`,
       alter: "Pokemon",
