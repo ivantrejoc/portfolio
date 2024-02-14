@@ -2,7 +2,7 @@
 import React from "react";
 import { useState } from "react";
 import { Container } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
+import { formatMs, makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "../content/TextDecrypt";
 
 import "./Works.css";
@@ -15,6 +15,7 @@ import Worksplace from "../../assets/recentprojects/worksplace.png";
 import Now from "../../assets/recentprojects/now.png";
 import Vsp from "../../assets/recentprojects/vsp.png";
 import Buime from"../../assets/recentprojects/buime-shop.png";
+import AgencySpotter from "../../assets/recentprojects/agency-spotter.png";
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -70,8 +71,17 @@ export const Works = () => {
       image: `${Portfolio}`,
       url: "https://ivantrejo.vercel.app/",
     },
+
     {
       id: 6,
+      title: "Agency Spotter",
+      description: `Elegant Marketing Agency landing page developed using UX/UI principles.`,
+      alter: "Agency-Spotter",
+      image: `${AgencySpotter}`,
+      url: "https://salvatech-test.webflow.io/",
+    },
+    {
+      id: 7,
       title: "Wanderlust",
       description: `Amazing e-commerce aimed to sell travel packages. Stands out for its third-party authentication, DBB, sorts, filters, shopping cart and PayPal payment gateway.`,
       alter: "Wanderlust",
@@ -79,7 +89,7 @@ export const Works = () => {
       url: "https://wanderlust-phi.vercel.app/home",
     },
     {
-      id: 7,
+      id: 8,
       title: "Pokemon",
       description: `ReactJS app developed to render pokemon API characters. Front-end designed with tailwindCSS and Flowbite components, back-end developed with Express and database developed with Sequelize.`,
       alter: "Pokemon",
