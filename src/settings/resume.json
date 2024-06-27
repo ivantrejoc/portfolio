@@ -47,17 +47,17 @@
         "x_icon": "fab fa-telegram-plane"
       },
       {
-        "network": "Discord",
-        "username": "ivantrejoc",
-        "url": "https://discord.com",
-        "x_icon": "fab fa-discord"
+        "network": "WhatsApp",
+        "username": "Ivan Trejo",
+        "url": "https://walink.co/dad99f",
+        "x_icon": "fab fa-whatsapp"
       }
     ]
   },
   "skills": [
     {
       "name": "Web Development",
-      "keywords": ["HTML", "CSS", "Javascript", "react", "redux", "express", "node","sequelize", "mongoDB", "bootstrap", "tailwindCSS", "firebase"]
+      "keywords": ["HTML", "CSS", "Javascript", "react", "next", "zustand", "redux", "express", "node","sequelize", "mysql", "postgres", "mongoDB", "bootstrap", "tailwindCSS", "materialUI", "firebase"]
     }
   ],
   "languages": [
